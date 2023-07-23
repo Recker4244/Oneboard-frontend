@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RetroDetails should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="retro-form z-50"
+  >
+    <div
+      class="retro-form-content"
+    >
+      <div
+        class="retro-form-heading"
+      >
+        <div
+          class="retro-title-left-icon"
+        >
+          <div
+            data-testid="detail-title"
+          >
+            Mock Retro Board
+          </div>
+          <button
+            data-testid="edit-icon"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1gm5n8l-MuiSvgIcon-root"
+              data-testid="EditIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </button>
+        </div>
+        <button
+          class="cancel-button-retro"
+          data-testid="close-detail"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1vj2ruk-MuiSvgIcon-root"
+            data-testid="CloseRoundedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M18.3 5.71a.9959.9959 0 0 0-1.41 0L12 10.59 7.11 5.7a.9959.9959 0 0 0-1.41 0c-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="retro-form-body-details"
+      >
+        <div
+          class="image"
+        >
+          <img
+            alt="retro"
+            data-testid="detail-image"
+            src="mock-image-path.jpg"
+          />
+        </div>
+        <vr />
+        <div
+          class="retro-details-right"
+        >
+          <h1>
+            ACTION ITEMS
+          </h1>
+          <ul
+            class="action-items-details"
+            data-testid="detail-action-items"
+          >
+            <li
+              class="actions"
+            >
+              item 1
+            </li>
+            <li
+              class="actions"
+            >
+              item 2
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`RetroDetails should match the snapshot when the image fails to load 1`] = `
+<DocumentFragment>
+  <div
+    class="retro-form z-50"
+  >
+    <div
+      class="retro-form-content"
+    >
+      <div
+        class="retro-form-heading"
+      >
+        <div
+          class="retro-title-left-icon"
+        >
+          <div
+            data-testid="detail-title"
+          >
+            Mock Retro Board
+          </div>
+          <button
+            data-testid="edit-icon"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1gm5n8l-MuiSvgIcon-root"
+              data-testid="EditIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+          </button>
+        </div>
+        <button
+          class="cancel-button-retro"
+          data-testid="close-detail"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1vj2ruk-MuiSvgIcon-root"
+            data-testid="CloseRoundedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M18.3 5.71a.9959.9959 0 0 0-1.41 0L12 10.59 7.11 5.7a.9959.9959 0 0 0-1.41 0c-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div
+        class="retro-form-body-details"
+      >
+        <div
+          class="image"
+        >
+          <img
+            alt="retro"
+            data-testid="detail-image"
+            src="https://st3.depositphotos.com/23594922/31822/v/600/depositphotos_318221368-stock-illustration-missing-picture-page-for-website.jpg"
+          />
+        </div>
+        <vr />
+        <div
+          class="retro-details-right"
+        >
+          <h1>
+            ACTION ITEMS
+          </h1>
+          <ul
+            class="action-items-details"
+            data-testid="detail-action-items"
+          >
+            <li
+              class="actions"
+            >
+              item 1
+            </li>
+            <li
+              class="actions"
+            >
+              item 2
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

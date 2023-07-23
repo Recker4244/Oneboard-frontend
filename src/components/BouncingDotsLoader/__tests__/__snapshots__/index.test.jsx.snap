@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BouncingDotsLoader should renders the component correctly 1`] = `
+<div
+  class="bouncing-loader"
+>
+  <div />
+  <div />
+  <div />
+</div>
+`;

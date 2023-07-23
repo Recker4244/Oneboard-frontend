@@ -1,0 +1,342 @@
+.retro-board-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.retro-board-gallery {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 102%;
+  /* justify-content: space-between; */
+  width: 102%;
+  flex-wrap: wrap;
+  padding: 0px;
+  padding: 0px;
+  overflow-y: scroll;
+  height: 383px;
+  height: 383px;
+}
+/*  */
+/* .edit-button-retro {
+  position: relative;
+  bottom: 14px;
+  left: 10px;
+  color: grey;
+  font-size: 31px;
+  cursor: pointer;
+} */
+.retro-add-button {
+  border: 1px;
+  display: flex;
+  border-style: dashed;
+  border-color: black;
+  justify-content: center;
+  margin: 10px;
+  width: 29%;
+  height: 45%;
+  text-align: center;
+  width: 29%;
+  height: 45%;
+  text-align: center;
+  /* margin-right: 10px; */
+}
+.retro-button {
+  margin-top: 55px;
+  width: 216px;
+  margin-top: 55px;
+  width: 216px;
+}
+
+.retro-board-content {
+  padding: 0px;
+  margin-right: 49px;
+  color: grey;
+  position: relative;
+  bottom: 40px;
+  padding: 0px;
+  margin-right: 49px;
+  color: grey;
+  position: relative;
+  bottom: 40px;
+}
+
+.icon {
+  font-size: 50px;
+  position: relative;
+  color: grey;
+  bottom: 10px;
+  right: 3px;
+}
+
+/* @media screen and (max-width:480px){ */
+
+/* .retro-board-gallery {
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-between; */
+/* width: 108%;
+      flex-wrap: wrap;
+      padding: 20px;
+      overflow-y: scroll;
+      height: 1200px; */
+/* } */
+/* .retro-add-button {
+      border: 1px;
+      border-style: dashed;
+      border-color: black;
+      justify-content: center;
+      margin: 10px;
+      width: 400px;
+      height: 240px;
+      /* margin-right: 10px; */
+/* } */
+/* }  */
+
+/* Default styles */
+
+/* Styles for screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  /* Styles for this screen size */
+  .retro-image {
+    border: 1px;
+    border-style: solid;
+    margin: 10px;
+    width: 42%;
+    height: 49%;
+    border-color: lightgray;
+    /* margin-left: 10px; */
+    cursor: pointer;
+  }
+  .retro-add-button {
+    display: flex;
+    border: 1px;
+    border-style: dashed;
+    border-color: black;
+    justify-content: center;
+    margin: 10px;
+    width: 42%;
+    height: 50%;
+    text-align: center;
+    /* margin-right: 10px; */
+  }
+  .retro-button {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  .icon {
+    font-size: 50px;
+    position: relative;
+    color: grey;
+    bottom: 49px;
+    right: 3px;
+    left: 37px;
+  }
+  .retro-board-content {
+    padding: 0px;
+    margin-right: 49px;
+    color: grey;
+    position: relative;
+    bottom: 52px;
+  }
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 992px */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* Styles for this screen size */
+  .retro-image {
+    border: 1px;
+    border-style: solid;
+    margin: 10px;
+    width: 42%;
+    height: 49%;
+    border-color: lightgray;
+    /* margin-left: 10px; */
+    cursor: pointer;
+  }
+  .retro-add-button {
+    border: 1px;
+    border-style: dashed;
+    border-color: black;
+    justify-content: center;
+    margin: 10px;
+    width: 42%;
+    height: 50%;
+    text-align: center;
+    /* margin-right: 10px; */
+  }
+  .retro-button {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  .icon {
+    font-size: 50px;
+    position: relative;
+    color: grey;
+    bottom: 49px;
+    right: -1px;
+    left: 62px;
+  }
+  .retro-board-content {
+    padding: 0px;
+    margin-right: 2px;
+    color: grey;
+    position: relative;
+    bottom: 52px;
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* Styles for this screen size */
+  .retro-button {
+    margin-top: 55px;
+    width: 104px;
+  }
+  .icon {
+    font-size: 50px;
+    position: relative;
+    color: grey;
+    bottom: 25px;
+    right: 0px;
+  }
+  .retro-board-content {
+    padding: 0px;
+    margin-right: 0px;
+    color: grey;
+    position: relative;
+    left: 14px;
+    bottom: 40px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1200px */
+@media only screen and (min-width: 1200px) {
+  /* Styles for this screen size */
+  .retro-button {
+    margin-top: 55px;
+    width: 175px;
+  }
+  .retro-board-content {
+    padding: 0px;
+    margin-right: 0px;
+    color: grey;
+    position: relative;
+    bottom: 40px;
+  }
+  .icon {
+    font-size: 50px;
+    position: relative;
+    color: grey;
+    bottom: 23px;
+    right: 7px;
+    padding-right: 1px;
+  }
+}
+
+@media screen and (min-width:2255px) {
+  .retro-image {
+    border: 1px;
+    border-style: solid;
+    margin: 10px;
+    width: 17%;
+    height: 45%;
+    border-color: lightgray;
+    /* margin-left: 10px; */
+    cursor: pointer;
+}
+.retro-add-button {
+  border: 1px;
+  border-style: dashed;
+  border-color: black;
+  justify-content: center;
+  margin: 10px;
+  width: 17%;
+  height: 45%;
+  text-align: center;
+  /* margin-right: 10px; */
+}
+.actions {
+  list-style: circle;
+  list-style-type: disc;
+  margin-top: 20px;
+  font-size: 21px;
+    margin-left: 18px;
+}
+.retro-details-right h1 {
+  font-size: 38px;
+  font-weight: 600;
+  padding-left: 42px;
+}
+/* .edit-button-retro {
+  position: relative;
+  bottom: 45px;
+  left: 56px;
+  color: grey;
+  font-size: -63px;
+  cursor: pointer;
+} */
+
+
+}
+
+.retro-button {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.retro-board-content {
+  text-align: left;
+  margin-left: 3px;
+  /* margin-left: 33px; */
+  font-size: 17px;
+}
+
+.icon {
+  margin-right: 5px;
+  position: relative;
+  right: -10px;
+  bottom: 44px;
+  left: 4px;
+}
+
+@media screen and (max-width:768px){
+    .retro-board-gallery {
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-between; */
+      /* justify-content: space-between; */
+      width: 112%;
+      flex-wrap: wrap;
+      padding: 0px;
+      overflow-y: scroll;
+      height: 383px;
+  }
+  .retro-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 91px;
+    width: 300px;
+    margin-left: 50px;
+}
+.icon {
+  margin-right: 5px;
+  position: relative;
+  right: -10px;
+  bottom: 53px;
+  left: 4px;
+}
+}

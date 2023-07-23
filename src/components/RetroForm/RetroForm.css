@@ -1,0 +1,375 @@
+.retro-form {
+  background-color: rgba(0, 0, 0, 0.734);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+.retro-form-body-right h1 {
+  font-size: 25px;
+  font-weight: 10px;
+  padding-left: 30px;
+}
+
+.retro-form-content {
+  background-color: white;
+  width: 60%;
+  height: 75%;
+}
+
+.upload-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.upload-images h2 {
+  margin-left: 20px;
+  width: 92%;
+  font-size: 25px;
+}
+
+.label-container label {
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+  padding-left: 30px;
+  margin: 0px;
+}
+.upload-image {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 378px;
+  width: 94%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px dashed #555;
+  color: #444;
+  cursor: pointer;
+  transition: 0.2s ease-in-out, border 0.2s ease-in-out;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.upload-image:hover {
+  background: #eee;
+  border-color: #111;
+}
+
+.upload-image p {
+  font-size: large;
+}
+
+.retro-form-body {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+
+
+.retro-form-title {
+  display: flex;
+  flex-direction: row;
+  background-color: #f7fbff;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.retro-form-title h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-input {
+  border-bottom: 1.5px;
+  border-color: #030c82;
+  border-style: solid;
+  border-radius: 1px;
+  margin-left: 29px;
+  margin-right: 10px;
+  width: 30%;
+  height: 35px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.action-item-input {
+  border-bottom: 1.5px;
+  border-color: #030c82;
+  border-style: solid;
+  border-radius: 1px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 59%;
+  height: 35px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.action-list {
+  list-style: circle;
+  list-style-type: disc;
+  cursor: pointer;
+  font-size: larger;
+}
+.action-lists :hover {
+  color: #f24727;
+}
+.action-lists :hover{
+    color: red;
+}
+.action-lists :hover{
+    color: red;
+}
+
+.action-lists {
+  padding-left: 20px;
+  margin-left: 36px;
+  margin-top: 10px;
+}
+.retro-form-body-right {
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.add-title-button {
+  margin-right: 40px;
+}
+
+.retro-form-title-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cancel-button {
+  position: relative;
+  right: 19px;
+  font-size: 25px;
+}
+.label-container {
+  border-right: gray;
+  border-right-style: solid;
+  border-right-width: 1px;
+  padding: 10px;
+  width: 60%;
+}
+.submit-btn {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  margin-left: 45px;
+  border-radius: 5px 5px;
+  font-size: 0.8rem;
+  border: none;
+  color: #fff;
+  background: #051c2c;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.re-upload {
+  display: flex;
+  margin-top: 10px;
+}
+.retro-form-body img {
+  width: auto;
+  height: 90%;
+  display: flex;
+}
+.re-upload-image {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  object-fit: cover;
+  flex-direction: column;
+  align-items: center;
+}
+.retro-form-body-right button {
+  font-weight: 500;
+  color: #030c82;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.retro-form-body-right input {
+  font-weight: 500;
+  color: rgb(43, 43, 111);
+  margin-top: 20px;
+  margin-left: 35px;
+  border-radius: 1px;
+}
+.submit-btn:hover {
+  background-color: rgb(68, 176, 176);
+}
+
+.upload-image input {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+
+.title-input {
+  width: 221px;
+}
+.label-container{
+    border-right: gray;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding: 10px;
+    width: 60%;
+}
+/* Default styles */
+
+/* Styles for screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  /* Styles for this screen size */
+  .retro-form-body {
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+    overflow: scroll;
+    height: 400px;
+  }
+  .label-container {
+    margin-right: 0px;
+    border: 0px;
+  }
+  .upload-image {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 252px;
+    width: 168%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+    transition: 0.2s ease-in-out, border 0.2s ease-in-out;
+    margin: 0px;
+    margin-top: 10px;
+  }
+  .upload-images {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  .label-container label {
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    padding-left: 53px;
+    margin: 0px;
+  }
+  .submit-btn {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 28px;
+    margin-left: 94px;
+    border-radius: 5px 5px;
+    font-size: 0.8rem;
+    border: none;
+    color: #fff;
+    background: #051c2c;
+    margin-right: 10px;
+    width: 250px;
+  }
+  .retro-form-body-right h1 {
+    font-size: 22px;
+    font-weight: 10px;
+    padding-left: 79px;
+  }
+  .retro-form-body-right button {
+    font-weight: 500;
+    color: #030c82;
+    padding-top: 8px;
+    margin-left: 63px;
+    padding-left: 40px;
+  }
+  .action-list {
+    list-style: circle;
+    list-style-type: disc;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 61px;
+  }
+  .action-list :hover {
+    color: #f24727;
+  }
+  .retro-form-body-right input {
+    font-weight: 500;
+    color: rgb(43, 43, 111);
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 5px;
+  }
+  .action-item-input {
+    border: 1.5px;
+    border-color: blue;
+    border-style: solid;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 35%;
+    height: 35px;
+    padding-left: 10px;
+  }
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 992px */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  /* Styles for this screen size */
+  .upload-image {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 327px;
+    width: 94%;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px dashed #555;
+    color: #444;
+    cursor: pointer;
+    transition: 0.2s ease-in-out, border 0.2s ease-in-out;
+    margin: 0px;
+    margin-top: 10px;
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* Styles for this screen size */
+}
+
+/* Styles for screens with a minimum width of 1200px */
+@media only screen and (min-width: 1200px) {
+  /* Styles for this screen size */
+  /* .retro-button {
+        margin-top: 55px;
+        width: 104px;
+    }
+    .icon {
+        font-size: 50px;
+        position: relative;
+        color: grey;
+        bottom: 10px;
+        right: 14px;
+    } */
+}

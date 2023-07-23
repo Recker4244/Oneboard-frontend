@@ -1,0 +1,120 @@
+{
+  "name": "developer-dashboard-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/roboto": "^4.5.8",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fullcalendar/core": "^6.1.4",
+    "@fullcalendar/daygrid": "^6.1.4",
+    "@fullcalendar/interaction": "^6.1.4",
+    "@fullcalendar/react": "^6.1.4",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.11",
+    "@mui/x-date-pickers": "^6.0.2",
+    "@testing-library/user-event": "^13.5.0",
+    "aws-sdk": "^2.1344.0",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "font-awesome": "^4.7.0",
+    "highcharts": "^8.2.2",
+    "highcharts-react-official": "^3.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "lottie-react": "^2.4.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-avatar": "^5.0.3",
+    "react-bootstrap": "^2.7.2",
+    "react-countup": "^6.4.2",
+    "react-datepicker": "^4.10.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-jwt": "^1.1.8",
+    "react-modal": "^3.16.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router": "^6.9.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(axios)/)"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover",
+      "cobertura"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}"
+    ],
+    "coveragePathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/src/constants/authorizationToken.temp.js",
+      "<rootDir>/src/components/index.js",
+      "<rootDir>/src/pages/index.js",
+      "<rootDir>/src/index.jsx"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage --watchAll=false",
+    "test:coverage": "npm run test -- --coverage --watchAll=false",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8080",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "tailwindcss": "^3.2.7"
+  }
+}

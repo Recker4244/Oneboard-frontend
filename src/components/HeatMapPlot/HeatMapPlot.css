@@ -1,0 +1,10 @@
+.heatmap {
+    /* width: 100px;
+    height: 50px; */
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,429 @@
+.re-upload-images-update{
+  width: 60%;
+  height: 90%;
+  padding-right: 30px;
+  margin-right: 30px;
+}
+
+.list-container {
+  width: 100px;
+  height: 46px;
+}
+
+button.delete-button-update {
+  position: relative;
+  bottom: 40px;
+}
+
+button.edit-button-update {
+  position: relative;
+  bottom: 0px;
+}
+
+.action-item-input-update-list{
+  border-bottom: 1.5px;
+  border-color: #030c82;
+  border-style: solid;
+  margin-left: -5px;
+  margin-right: 10px;
+  margin-top: 18px;
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 1px;
+  outline: none;
+}
+/* .cancel-button-retro-update {
+  position: relative;
+  font-size: 25px;
+  font-weight: bolder;
+  left: 84%;
+  bottom: 12px;
+} */
+
+.retro-update-left{
+  display: flex;
+  flex-direction: row;
+  margin-left: 18px;
+  color: #030c82;
+  /* width: 50%;
+  height: 100%;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: 30px; */
+}
+
+.re-upload-update input{
+  display: none;
+}
+
+.re-upload-update input{
+  display: none;
+}
+.edit-button-retro-update {
+  position: relative;
+  bottom: 14px;
+  left: 10px;
+  color: grey;
+  font-size: 31px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.re-upload-image-update img {
+  width: 79%;
+  height: 46%;
+  margin-left: 43px;
+}
+
+.retro-form-heading-update {
+  display: flex;
+  background-color: #f7fbff;
+  height: 9%;
+  margin-bottom: 10px;
+  padding: 20px;
+  padding-left: 30px;
+}
+.cancel-button-retro-update {
+  position: relative;
+  font-size: 25px;
+  font-weight: bolder;
+  left: 75%;
+  bottom: 12px;
+}
+
+.retro-form-body-details-update {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  height: 72%;
+  width: 100%;
+}
+
+.upload-image-update {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 56%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px dashed #555;
+  color: #444;
+  cursor: pointer;
+  transition: 0.2s ease-in-out, border 0.2s ease-in-out;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.re-upload-update {
+  display: flex;
+  margin-top: 37px;
+}
+
+.retro-details-right-update {
+  width: 44%;
+  height: 100%;
+  padding: 10px;
+  margin-left: 58px;
+}
+
+.retro-details-right-update h1{
+  font-size: 25px;
+  margin-left: 16px;
+}
+
+.retro-details-right-update button {
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 10px;
+
+}
+
+.action-items-details-update{
+  margin-top: 16px;
+  margin-left:20px;
+}
+
+.edit-button-update {
+  position: relative;
+  bottom: 4px;
+  left: 26px;
+  color: grey;
+  font-size: 31px;
+  width: 62px;
+  cursor: pointer;
+}
+
+.delete-button-update {
+  position: relative;
+  bottom: 4px;
+  left: -15px;
+  color: grey;
+  font-size: 31px;
+  width: 62px;
+  cursor: pointer;
+}
+
+.action-item-input-update {
+  border-bottom: 1.5px;
+  border-color: #030c82;
+  border-style: solid;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 18px;
+  width: 59%;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 1px;
+  outline: none;
+}
+
+.action-item-button-update{
+  color: blue;
+}
+
+.action-items-details-update li{
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.li-title{
+  font-size: 20px;
+  padding-top: 10px;
+  /* font-weight: bold; */
+}
+
+.list-update{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.header-input {
+  border-bottom: 1px solid #030c82;
+  border-radius: 1px;
+  width: 146%;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 11px;
+  margin-left: 3px;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .re-upload-images-update {
+  width: 94%;
+  height: auto;
+  padding-right: 0;
+  margin-right: 0;
+  }
+  
+  .retro-update-left {
+  /* display: block; */
+  margin-left: 0;
+  }
+  
+  .re-upload-image-update img {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  }
+  
+  .retro-form-heading-update {
+  height: auto;
+  padding: 10px;
+  padding-left: 20px;
+  }
+  
+  .cancel-button-retro-update {
+  left: 60%;
+  bottom: 0;
+  }
+  
+  .retro-form-body-details-update {
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  }
+  
+  .upload-image-update {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  }
+  
+  .retro-details-right-update {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin-left: 0;
+  }
+  .action-items-details-update {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100px;
+    height: 162px;
+}
+  
+  .edit-button-update,
+  .delete-button-update {
+  font-size: 20px;
+  width: 50px;
+  }
+  
+  .action-item-input-update {
+  width: 100%;
+  margin-top: 10px;
+  }
+
+  .retro-details-right-update h1 {
+    margin-top: 40px;
+}
+.retro-details-right-update button {
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 23px;
+}
+button.delete-button-update {
+  position: relative;
+  bottom: 65px;
+}
+.edit-button-update {
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 23px;
+  position: relative;
+  bottom: 13px;
+}
+.list-update {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 28px;
+}
+  }
+  @media only screen and (max-width: 1680px) {
+    /* CSS for extra large screens */
+    .re-upload-images-update {
+      width: 60%;
+      height: 107%;
+      padding-right: 50px;
+      margin-right: 50px;
+    }
+  
+    .re-upload-image-update img {
+      width: 75%;
+      height: 40%;
+      margin-left: 73px;
+    }
+  
+    .retro-details-right-update {
+      width: 40%;
+      height: 100%;
+      padding: 10px;
+      margin-left: 78px;
+    }
+  }
+  
+
+  @media only screen and (max-width: 576px) {
+    /* CSS for small screens */
+    .re-upload-images-update {
+    width: 100%;
+    height: 80%;
+    padding-right: 0px;
+    margin-right: 0px;
+    }
+    
+    .re-upload-image-update img {
+    width: 100%;
+    height: 70%;
+    margin-left: 0px;
+    }
+    
+    .retro-details-right-update {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-left: 0px;
+    }
+    
+    .action-item-input-update {
+    width: 100%;
+    margin-right: 0px;
+    }
+    }
+    
+    @media only screen and (min-width: 577px) and (max-width: 992px) {
+    /* CSS for medium screens */
+    .re-upload-images-update {
+    width: 80%;
+    height: 90%;
+    padding-right: 20px;
+    margin-right: 20px;
+    }
+    
+    .re-upload-image-update img {
+    width: 80%;
+    height: 50%;
+    margin-left: 23px;
+    }
+    
+    .retro-details-right-update {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    margin-left: 28px;
+    }
+    }
+    
+    @media only screen and (min-width: 993px) {
+    /* CSS for large screens */
+    .re-upload-images-update {
+      width: 92%;
+      height: 106%;
+      padding-right: 0px;
+      margin-right: -3px;
+    }
+    
+    .re-upload-image-update img {
+    width: 79%;
+    height: 46%;
+    margin-left: 43px;
+    }
+    
+    .retro-details-right-update {
+      width: 41%;
+      height: 100%;
+      padding: 10px;
+      margin-left: 29px;
+  }
+  .cancel-button-retro-update {
+    position: relative;
+    font-size: 25px;
+    font-weight: bolder;
+    left: 688px;
+    /* right: 19px; */
+    bottom: 12px;
+}
+.retro-heading-update {
+  width: 83px;
+}
+.delete-button-update {
+  position: relative;
+  bottom: 4px;
+  left: -15px;
+  color: grey;
+  font-size: 31px;
+  width: 62px;
+  cursor: pointer;
+}
+    }

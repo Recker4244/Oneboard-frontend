@@ -1,0 +1,39 @@
+.retro-image {
+  border: 1px;
+  border-style: solid;
+  margin: 10px;
+  width: 29%;
+  height: 45%;
+  border-color: lightgray;
+  /* margin-left: 10px; */
+  cursor: pointer;
+}
+
+.retro-up {
+  height: 79%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.retro-down {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 11px;
+  background-color: #f7fbff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 480px) {
+  .retro-image {
+    border: 1px;
+    border-style: solid;
+    margin: 10px;
+    width: 400px;
+    height: 340px;
+    border-color: lightgray;
+    /* margin-left: 10px; */
+  }
+}

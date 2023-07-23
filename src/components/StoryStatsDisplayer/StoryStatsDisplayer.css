@@ -1,0 +1,8 @@
+.project-timeline-highchart-container .highcharts-container  {
+    height: 45px !important;
+    transform: translateX(-20px);
+  }
+  
+  /* .project-timeline-highchart-container{
+    width: 270px;
+  } */

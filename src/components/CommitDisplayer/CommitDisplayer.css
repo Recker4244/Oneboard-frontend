@@ -1,0 +1,6 @@
+.staffed-count-displayer .highcharts-background {
+    background-color: transparent;
+    height: 80px !important;
+    width: 80px !important;
+    border: 1px solid black;
+}

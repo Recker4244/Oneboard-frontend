@@ -1,0 +1,11 @@
+export const HOME_ROUTE = '/';
+export const ADMIN_DASHBOARD_ROUTE = '/admin';
+export const LANDING_ROUTE = '/landing';
+export const ERROR_ROUTE = '/error';
+export const NOT_FOUND_ROUTE = '*';
+export const LOGIN_ROUTE = '/login';
+export const PROJECT_DETAILS_PAGE_ROUTE = '/project';
+export const ADMIN_ROUTE = '/admin';
+export const RETRO_ROUTE = '/retro';
+export const PULSE_ROUTE = '/pulse';
+export const PROFILE_ROUTE = '/profile';

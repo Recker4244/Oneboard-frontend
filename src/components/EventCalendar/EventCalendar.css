@@ -1,0 +1,16 @@
+.fc {
+  font-size: 0.5em !important;
+  height: 100%;
+}
+
+.fc-toolbar-title {
+  font-size: 2.5em !important;
+}
+
+.fc-event{
+  font-size: 1em !important;
+}
+
+.fc-daygrid-day-frame {
+  min-height: 2.5rem !important;
+}

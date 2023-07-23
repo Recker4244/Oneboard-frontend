@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddUserDialog should render correctly 1`] = `
+<div>
+  <div
+    class="h-40v"
+  />
+</div>
+`;
